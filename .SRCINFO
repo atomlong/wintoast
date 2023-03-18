@@ -1,0 +1,12 @@
+pkgbase = wintoast
+	pkgdesc = A console application to show a toast notification on Windows 8 and 10 (msys2)
+	pkgver = 1.0.0.275.a44fa02
+	pkgrel = 1
+	url = https://github.com/mohabouje/WinToast
+	arch = any
+	license = MIT
+	options = !strip
+	source = wintoast::git+https://github.com/git-for-windows/WinToast#tag=g4w-20221103-01
+	sha256sums = SKIP
+
+pkgname = wintoast
